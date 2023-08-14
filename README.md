@@ -1,4 +1,4 @@
-# Virtual Dressing Room TypeScript Example
+# Virtual Dressing Room PHP Example
 
 Welcome to the Virtual Dressing Room Example project! This repository demonstrates the usage of a [Texel.Moda](https://texelmoda.com/) virtual dressing room system that allows users to try on different outfits using images of clothing items and avatars. The project utilizes the RapidAPI platform to make the virtual try-on process seamless.
 
@@ -32,14 +32,14 @@ yarn install
 
 1. Obtain your RapidAPI key by signing up on the [RapidAPI website](https://rapidapi.com/texel-inc-texel-inc-default/api/texel-virtual-try-on).
 
-2. Open the `src/config.ts` file and replace `'RAPID_API_KEY'` with your actual RapidAPI key.
+2. Open the `src/config.php` file and replace `'RAPID_API_KEY'` with your actual RapidAPI key.
 
 3. Prepare the clothing item image and avatar image that you want to use for the virtual try-on. Make sure the images are in a compatible format (e.g., JPG, PNG).
 
 4. Run the virtual dressing room script:
 
 ```
-yarn start
+Run the PHP script in your preferred web server environment.
 ```
 
 5. The script will generate an output image (`result.jpg`) showing the avatar wearing the chosen clothing item.
